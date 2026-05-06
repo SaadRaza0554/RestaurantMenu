@@ -39,7 +39,7 @@ public class RestaurantMenu {
             input.nextLine(); // consume leftover newline
             i = input.nextLine();
 
-        } while (i.equalsIgnoreCase("y"));
+        } while (i.equalsIgnoreCase("y"||"Y"));
 
         System.out.println("Thank you for visiting Mr Café!");
         input.close();
